@@ -21,8 +21,6 @@ namespace GPSFramework
 
             bool running = true;
 
- 
-
             while (running)
             {
                 var line = gpsChip.ReadLine();
